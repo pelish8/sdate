@@ -1,0 +1,4 @@
+sdate
+=====
+
+Simple date formatter

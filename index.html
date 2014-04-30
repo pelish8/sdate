@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- // <script type="text/javascript" src="http://cdn.jsdelivr.net/requirejs/2.1.11/require.js"></script> -->
+        <script type="text/javascript" src="SDate.js"></script>
+    </head>
+    <body>
+    <script type="text/javascript">
+        var format = 'l M, j, Y H:i:s',//'j - d - D - l - N - \\S - S - w - F - m - M  - n - Y - y - a - A - g - h - G - H - i - s',
+            init = function (SDate) {
+                var date = new SDate().format(format);
+                alert(date);
+            };
+
+        if (typeof define === 'function' && define.amd) {
+            require(['SDate'], function (SDate) {
+                init(SDate);
+            });
+        } else {
+            init(SDate);
+        }
+
+    </script>
+    </body>
+</html>

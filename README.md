@@ -3,7 +3,7 @@ sdate
 
 Simple date formatter
 
-
+```
 d - Day of the month 01 to 31
 D - A short textual representation of the day of the week Mon to Sun
 j - Day of the month without leading zeros
@@ -26,6 +26,7 @@ H - 24-hour format of an hour with leading zeros 00 to 23
 i - Minutes, with leading zeros 00 to 59
 s - Seconds, with leading zeros 00 to 59
 T - Timezone abbreviation of the machine running the code Examples: EST, MDT, PDT ...
+```
 
 
 ```
